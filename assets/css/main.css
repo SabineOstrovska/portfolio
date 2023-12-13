@@ -1044,6 +1044,18 @@ input, select, textarea {
 				width: 100%;
 			}
 
+
+.thumb {
+	-moz-transition: opacity 1.25s ease-in-out;
+	-webkit-transition: opacity 1.25s ease-in-out;
+	-ms-transition: opacity 1.25s ease-in-out;
+	transition: opacity 1.25s ease-in-out;
+	pointer-events: auto;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	opacity: 1;
+	overflow: hidden;
+	position: relative;
+}
 /* List */
 
 	ol {
