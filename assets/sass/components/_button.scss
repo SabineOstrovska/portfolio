@@ -136,6 +136,10 @@
 				color: _palette(accent4) !important;
 			}
 
+			&.color5 {
+				color: _palette(accent5) !important;
+			}
+
 			&:hover {
 				background-color: _palette(accent3);
 			}
